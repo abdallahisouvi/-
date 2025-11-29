@@ -1,0 +1,62 @@
+body{
+    font-family:"Cairo",sans-serif;
+    background:#f5f6ff;
+    margin:0;
+    text-align:center;
+}
+
+.top{
+    background:#2c3e50;
+    color:white;
+    padding:25px;
+}
+
+.menu{
+    background:#34495e;
+    padding:10px;
+}
+.menu a{
+    color:white;
+    margin:10px;
+    text-decoration:none;
+    font-size:18px;
+}
+.menu a:hover{
+    text-decoration:underline;
+}
+
+.hero{
+    background:#fff;
+    padding:40px;
+    margin:20px auto;
+    width:90%;
+    border-radius:10px;
+}
+.hero button{
+    padding:15px 30px;
+    font-size:18px;
+    border:none;
+    background:#1abc9c;
+    color:white;
+    border-radius:7px;
+}
+.hero button:hover{background:#16a085;}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:15px;
+    margin:20px;
+}
+.box{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 8px rgba(0,0,0,0.1);
+}
+footer{
+    background:#2c3e50;
+    color:white;
+    padding:15px;
+    margin-top:40px;
+}
